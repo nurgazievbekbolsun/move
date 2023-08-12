@@ -1,0 +1,40 @@
+#header{
+    background:rgb(32, 50, 50);
+    padding: 15px 0;
+    .header{
+        display: flex;
+        align-items: center;
+      justify-content: space-between  ;
+        &--h1{
+            color: red;
+        }
+        &--nav{
+            display: flex;
+            gap: 30px;
+            a{
+                color: rgb(255, 255, 255);
+               font-size: 20px; 
+            }
+        }
+        &--btns{
+            display: flex;
+            gap: 30px;
+            button{
+                padding:5px 10px;
+                background: none;
+                border: 1px solid rgb(255, 255, 255);
+                color: rgb(21, 0, 255);border-radius: 10px;
+            }
+            input{
+                background:none ;
+                border: 1px solid rgb(255, 255, 255);
+                padding: 0 0 0 10px;
+                width: 80%;border-radius: 10px;
+                caret-color: yellow;
+                &::placeholder{
+                    color: rgb(30, 0, 255);
+                }
+            }
+        }
+    }
+}
